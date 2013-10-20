@@ -527,3 +527,53 @@ add_action( 'customize_preview_init', 'twentythirteen_customize_preview_js' );
 
 /** tableau des medias */
 
+
+$foncmax = 2018; // a augmenter si un jour on crée Terranéa 2019 et plus
+
+
+
+$imgid[613]= '../upload/jpg/mozilla_addons.jpg';
+
+$conv[2013][accueil]=10;
+$conv[2013][compta]=11;
+$conv[2013][juridique]=31;
+$conv[2013][etatloc]=32;
+$conv[2013][patrimoine]=5;
+$conv[2013][tdb]=4;
+// -
+$conv[2014][accueil]=12;
+$conv[2014][compta]=13;
+$conv[2014][juridique]=9;
+$conv[2014][etatloc]=1;
+$conv[2014][patrimoine]=14;
+$conv[2014][tdb]=5;
+// -
+$conv[2015][accueil]=17;
+$conv[2015][compta]=18;
+$conv[2015][juridique]=19;
+$conv[2015][etatloc]=1;
+$conv[2015][patrimoine]=20;
+$conv[2015][tdb]=21;
+// -
+$conv[2016][accueil]=23;
+$conv[2016][compta]=24;
+$conv[2016][juridique]=25;
+$conv[2016][etatloc]=1;
+$conv[2016][patrimoine]=26;
+$conv[2016][tdb]=27;
+// -
+$conv[2017][accueil]=1;
+$conv[2017][compta]=1;
+$conv[2017][juridique]=1;
+$conv[2017][etatloc]=1;
+$conv[2017][patrimoine]=1;
+$conv[2017][tdb]=1;
+// -
+$conv[2018][accueil]=1;
+$conv[2018][compta]=1;
+$conv[2018][juridique]=1;
+$conv[2018][etatloc]=1;
+$conv[2018][patrimoine]=1;
+$conv[2018][tdb]=1;
+
+
