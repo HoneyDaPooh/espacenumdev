@@ -577,3 +577,10 @@ $conv[2018][patrimoine]=1;
 $conv[2018][tdb]=1;
 
 
+/** shortcodes pour convertir le SPIP sa mère */
+
+//{{.}} into [sc_titre].[/sc_titre] 
+function sc_titre_handler($atts, $content=null){
+return '<h3>' . $content . '<h3>';
+}
+add_shortcode( 'sc_titre', 'sc_titre_handler' );

@@ -25,12 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="functions.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="532" column="0" selection-start="17593" selection-end="17593" vertical-scroll-proportion="0.02124646">
+            <state line="537" column="23" selection-start="17693" selection-end="17693" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="10-20-2013-11h50 - MODIFS SHORTCODES.sql" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../../dumpbdd/10-20-2013-11h50 - MODIFS SHORTCODES.sql">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -289,9 +296,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="532" column="0" selection-start="17593" selection-end="17593" vertical-scroll-proportion="0.02124646">
+        <state line="537" column="23" selection-start="17693" selection-end="17693" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../dumpbdd/10-20-2013-11h50 - MODIFS SHORTCODES.sql">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state />
       </provider>
     </entry>
   </component>
