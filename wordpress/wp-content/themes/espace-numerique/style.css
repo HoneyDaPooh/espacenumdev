@@ -1,0 +1,375 @@
+/*
+
+Theme Name: Espace Numérique Sciences Po
+
+Theme URI: http://www.espace-numerique.fr
+
+Author: Espace Numérique Sciences Po
+
+Author URI: ttp://www.espace-numerique.fr
+
+Description: Theme for the website of the association "Espace Numérique Sciences Po"
+
+License: GNU General Public License v2 or later
+
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Tags: one-column, light
+
+Text Domain: espacenum
+
+
+
+This theme, like WordPress, is licensed under the GPL.
+
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+ 
+@font-face {
+    font-family: 'futura';
+    src: url('fonts/futura-light-webfont.eot');
+    src: url('fonts/futura-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/futura-light-webfont.woff') format('woff'),
+         url('fonts/futura-light-webfont.ttf') format('truetype'),
+         url('fonts/futura-light-webfont.svg#futura') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('fonts/bebasneue-webfont.eot');
+    src: url('fonts/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bebasneue-webfont.woff') format('woff'),
+         url('fonts/bebasneue-webfont.ttf') format('truetype'),
+         url('fonts/bebasneue-webfont.svg#bebas') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: bebas;
+}
+
+.container-width {
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topbar {
+    padding-bottom: 10px;
+    background: #ffffff; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPHJhZGlhbEdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNzUlIj4KICAgIDxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2QyZDJkMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9yYWRpYWxHcmFkaWVudD4KICA8cmVjdCB4PSItNTAiIHk9Ii01MCIgd2lkdGg9IjEwMSIgaGVpZ2h0PSIxMDEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+    background: -moz-radial-gradient(center, ellipse cover, #ffffff 42%, #d2d2d2 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(42%,#ffffff), color-stop(100%,#d2d2d2)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 42%,#d2d2d2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, #ffffff 42%,#d2d2d2 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, #ffffff 42%,#d2d2d2 100%); /* IE10+ */
+    background: radial-gradient(ellipse at center, #ffffff 42%,#d2d2d2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d2d2d2',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+}
+
+.d4l0g0:hover {
+    opacity: 0.7;
+}
+
+.navbar-espacenum {
+    background-color: #e1003a;
+    border-color: #eeeeee;
+    font-family: 'bebas';
+    font-size: x-large;
+}
+.navbar-espacenum .navbar-brand {
+    color: #ffffff;
+}
+.navbar-espacenum .navbar-brand:hover,
+.navbar-espacenum .navbar-brand:focus,
+.navbar-espacenum .navbar-brand:active {
+    color: #e1003a;
+}
+.navbar-espacenum .navbar-nav > li > a {
+    color: #ffffff;
+}
+.navbar-espacenum .navbar-nav > li > a:hover,
+.navbar-espacenum .navbar-nav > li > a:focus,
+.navbar-espacenum .navbar-nav > li > a:active {
+    color: #e1003a;
+}
+.navbar-espacenum .navbar-nav > .active > a, 
+.navbar-espacenum .navbar-nav > .active > a:hover, 
+.navbar-espacenum .navbar-nav > .active > a:focus,
+.navbar-espacenum .navbar-nav > .active > a:active {
+    color: #e1003a;
+    background-color: #eeeeee;
+}
+.navbar-nav > li:active {
+    color: #e1003a;
+    background-color: #eeeeee;
+}
+.navbar-espacenum .navbar-nav > .open > a, 
+.navbar-espacenum .navbar-nav > .open > a:hover, 
+.navbar-espacenum .navbar-nav > .open > a:focus,
+.navbar-espacenum .navbar-nav > .open > a:active {
+    color: #e1003a;
+    background-color: #eeeeee;
+}
+.navbar-espacenum .navbar-nav > .dropdown > a .caret {
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+.navbar-espacenum .navbar-nav > .dropdown > a:hover .caret,
+.navbar-espacenum .navbar-nav > .dropdown > a:focus .caret,
+.navbar-espacenum .navbar-nav > .dropdown > a:active .caret {
+    border-top-color: #e1003a;
+    border-bottom-color: #e1003a;
+}
+.navbar-espacenum .navbar-nav > .open > a .caret, 
+.navbar-espacenum .navbar-nav > .open > a:hover .caret, 
+.navbar-espacenum .navbar-nav > .open > a:focus .caret,
+.navbar-espacenum .navbar-nav > .open > a:active .caret {
+    border-top-color: #e1003a;
+    border-bottom-color: #e1003a;
+}
+.navbar-espacenum .navbar-toggle {
+    border-color: #eeeeee;
+}
+.navbar-espacenum .navbar-toggle:hover,
+.navbar-espacenum .navbar-toggle:focus {
+    background-color: #eeeeee;
+}
+.navbar-espacenum .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+@media (max-width: 767px) {
+    .navbar-espacenum .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+    .navbar-espacenum .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-espacenum .navbar-nav .open .dropdown-menu > li > a:focus,
+    .navbar-espacenum .navbar-nav .open .dropdown-menu > li > a:active {
+        color: #e1003a;
+    }
+}
+
+.current-menu-item {
+    background-color: #eeeeee;
+}
+.current-menu-item > a {
+    color: #e1003a !important;
+    background-color: #eeeeee;
+}
+
+.btn-search {
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    height: 36px;
+}
+
+.btn-search:hover,
+.btn-search:focus,
+.btn-search:active,
+.btn-search.active,
+.open .dropdown-toggle.btn-search {
+  border-color: #adadad;
+}
+
+.btn-search:active,
+.btn-search.active,
+.open .dropdown-toggle.btn-search {
+  background-image: none;
+}
+
+.search-box {
+    -webkit-border-top-right-radius: 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-bottomright: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    color: #e1003a;
+    height: 36px;
+}
+.btn-s {
+  font-size: 12px;
+  line-height: 1.4;
+}
+.glyphicon-red {
+    color: #e1003a;
+}
+.glyphicon-red:hover {
+    color: #ef7595;
+}
+
+.carousel-thumbnail {
+    filter: url(img/filter.svg#grayscale); /* Firefox 3.5+ */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    max-height: 179px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.carousel-thumbnail:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.navbar-form {
+    max-width: 300px;
+}
+
+/*
+This is the visible area of you carousel.
+Set a width here to define how much items are visible.
+The width can be either fixed in px or flexible in %.
+Position must be relative!
+*/
+.jcarousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+/*
+This is the container of the carousel items.
+You must ensure that the position is relative or absolute and
+that the width is big enough to contain all items.
+*/
+.jcarousel ul {
+    width: 20000em;
+    position: relative;
+
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+These are the item elements. jCarousel works best, if the items
+have a fixed width and height (but it's not required).
+*/
+.jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+}
+
+.jcarousel-prev, .jcarousel-next {
+    background: none repeat scroll 0 0 #e1003a;
+    border-radius: 40px;
+    color: #FFFFFF;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 1px #000000;
+    margin-top: -107px;
+}
+
+.jcarousel-prev {
+    left: 15px;
+}
+
+.jcarousel-next {
+    right: 15px;
+}
+
+.main-article {
+    padding: 0px;
+    margin: 4px;
+}
+
+.big-article {
+    position: relative;
+    overflow: hidden;
+    max-height: 500px;
+}
+
+.big-thumbnail {
+    margin: auto;
+    filter: url(img/filter.svg#halfRemix);
+    -webkit-filter: url(wp-content/themes/espace-numerique/img/filter.svg#halfRemix);
+}
+/*
+.big-thumbnail:hover {
+    filter: none;
+    -webkit-filter: none;
+}
+*/
+.thumbnail-title {
+    background-color: #fff;
+    color: #e1003a;
+    opacity: 0.6;
+    position: absolute;
+    text-align: center;
+    top: 220px;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .thumbnail-title {
+        top: 100px;
+    }
+}
+
+.other-articles {
+    margin-top: 8px;
+    background-color: #dfdfdf;
+    padding-bottom: 15px;
+}
+
+.separator {
+    height: 40px;
+    background-color: #e1003a;
+    margin-bottom: 15px;
+}
+
+.small-article {
+    background-color: #ffffff;
+}
+
+.small-article-header {
+    background-color: #e1003a;
+    text-align: center;
+}
+
+.small-article-header:hover {
+    background-color: #ffffff;
+}
+
+.small-article-header > a > h2 {
+    padding: 10px 15px;
+    margin: 0 0 0 0;
+    color: #ffffff;
+}
+
+.small-article-header > a > h2:hover {
+    color: #e1003a;
+}
+
+.small-article-header > a:hover {
+    color: #e1003a;
+    text-decoration: none;
+}
+
+.small-article > p {
+    padding: 10px;
+}
+
+.footer {
+    background-color: #e1003a;
+    padding: 15px;
+    color: #ffffff;
+}
